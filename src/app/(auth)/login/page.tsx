@@ -18,7 +18,7 @@ import Image from 'next/image';
 import Logo from '../../../../public/cypresslogo.svg';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
-import Loader from '@/components/loader';
+import Loader from '@/components/global/loader';
 import { actionLoginUser } from '@/lib/server-actions/auth-action';
 
 const LoginPage = () => {
@@ -61,7 +61,7 @@ const LoginPage = () => {
             </span>
           </Link>
           <FormDescription className="text-foreground/60">
-            An all-In-One Work-Life Management and Productivity Platform
+            An all-In-One Colaboration and Productivity Platform
           </FormDescription>
           <FormField
             control={form.control}

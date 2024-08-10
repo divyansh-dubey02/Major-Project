@@ -31,7 +31,7 @@ const HomePage = () => {
       >
         <TitleSection
           pill="✨ Your Workspace, Perfected"
-          title="All-In-One Work-Life Management and Productivity Platform"
+          title="All-In-One Collaboration and Productivity Platform"
         />
         <div
           className="bg-white
